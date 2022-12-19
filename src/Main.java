@@ -8,7 +8,6 @@ public class Main {
         task6();
         task7();
         task8();
-
     }
 
     public static void task1 () {
@@ -18,10 +17,8 @@ public class Main {
         System.out.println("Задача №1");
         System.out.println(dog);
         System.out.println(cat);
-        System.out.println(paper);
-
+        System.out.println(paper + "\n");
     }
-
     public static void task2 () {
         var dog = 8.0;
         var cat = 3.6;
@@ -32,7 +29,7 @@ public class Main {
         System.out.println("Задача №2");
         System.out.println(dog);
         System.out.println(cat);
-        System.out.println(paper);
+        System.out.println(paper + "\n");
     }
     public static void task3 () {
         var dog = 8.0;
@@ -44,7 +41,7 @@ public class Main {
         System.out.println("Задача №3");
         System.out.println(dog);
         System.out.println(cat);
-        System.out.println(paper);
+        System.out.println(paper + "\n");
     }
     public static void task4 () {
         var friend = 19;
@@ -53,7 +50,7 @@ public class Main {
         friend = friend + 2;
         System.out.println(friend);
         friend = friend / 3;
-        System.out.println(friend);
+        System.out.println(friend + "\n");
     }
     public static void task5 () {
         var frog = 3.5;
@@ -64,7 +61,7 @@ public class Main {
         frog = frog / 3.5;
         System.out.println(frog);
         frog = frog + 4;
-        System.out.println(frog);
+        System.out.println(frog + "\n");
     }
     public static void task6 () {
         System.out.println("Задача №6");
@@ -75,7 +72,7 @@ public class Main {
         var WeightCommon = boxer2 + boxer1;
         System.out.println("Общий вес боксеров " + WeightCommon + " кг");
         var WeightDifference = boxer2 - boxer1;
-        System.out.println("Разница веса боксеров " + WeightDifference + " кг");
+        System.out.println("Разница веса боксеров " + WeightDifference + " кг\n");
     }
     public static void task7 () {
         System.out.println("Задача №7");
@@ -86,15 +83,13 @@ public class Main {
         var WeightDifference1 = boxer2 - boxer1;
         System.out.println("Метод 1: разница веса боксеров " + WeightDifference1 + " кг");
         var WeightDifference2 = boxer2%boxer1;
-        System.out.println("Метод 2: разница веса боксеров " + WeightDifference2 + " кг");
-
-
-
+        System.out.println("Метод 2: разница веса боксеров " + WeightDifference2 + " кг\n");
     }
     public static void task8 () {
     var overallTime = 640;
     var timePerPerson = 8;
     var AllPeople = overallTime / timePerPerson;
+        System.out.println("Задание №8");
         System.out.println("Всего работников в компании - " + AllPeople + " человек");
         var actualAmount = AllPeople + 94;
         var actualTimePerPerson = overallTime / actualAmount;
